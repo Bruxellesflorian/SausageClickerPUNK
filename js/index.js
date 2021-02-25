@@ -4,6 +4,9 @@ import React from 'react'
 import { Navbar } from './components/navBar.jsx'
 import {SaucisseTouch} from './components/saucisse.jsx'
 
+// import 'animate.css'
+
+
 function Body(){
     return(
         <div>
