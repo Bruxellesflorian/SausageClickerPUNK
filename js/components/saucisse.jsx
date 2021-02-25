@@ -21,7 +21,7 @@ import AnimDeMorteau from './animDeMorteau'
       
                  puissanceClick: 1,
                  pcps: 0,
-                 clicks : 5000 ,
+                 clicks : 0 ,
                  inflation :1.20,
                 };
         }
