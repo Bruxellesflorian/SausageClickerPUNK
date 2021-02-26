@@ -1,0 +1,208 @@
+@import url('http://fonts.cdnfonts.com/css/cyberx-font');
+
+html{
+    font-family: 'CyberX-font', sans-serif;
+    /* font-family: sans-serif; */
+    font-size: 19px;
+    min-width: 868px;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* background: linear-gradient(90deg,rgb(127, 157, 255) 0%, rgba(124,15,201,1) 60%); */
+    background-image: url(/CanineSameEwe-small.6a442501.gif);
+    
+    background-size: cover;
+}
+
+.titre{
+    text-align: center;
+}
+.navPos{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    min-width: 1100px;
+    /* background:rgba(78, 18, 78); */
+    background: linear-gradient(180deg, rgb(31, 72, 185) 0%, rgb(78, 18, 78) 90%);
+
+    font-weight: 550;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.saucisse{
+    width: 400px;
+    height: 50px;
+    background-image: url(/sauc.4c1362ed.PNG);
+    background-position: center;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,233,75,1) 0%, rgba(221,167,79,1) 0%, rgba(201,87,15,1) 61%); */
+    border-radius: 30px;
+    border: inset rgb(233, 174, 153) 2px;
+    transform: rotate(20deg);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition-duration: 0.5s;
+    
+}
+.saucisse:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: rotate(60deg);
+    transform: translateY(50px);
+    transform: translateX(50px);
+  }
+.socle{
+    background-image: url("/Bucket-Sausages.b228dfdf.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 300px;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    margin: 0 auto  ;
+}
+button{
+    border: none;
+    outline: none;
+}
+.store{
+    margin: 0px 50px 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:100%;
+    border-radius: 60px;
+    background: radial-gradient(circle, rgba(33,85,255,0.3) 36%, rgba(198,31,185,0.8) 100%);
+    backdrop-filter: blur(2px);
+
+}
+.display{
+    display: flex;
+    padding: 30px;
+}
+.white{
+    color: white;
+}
+.styleBucket{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: bottom;
+    box-shadow: rgb(207, 8, 8) 0px 19px 38px, rgb(228, 43, 197) 0px 15px 12px;
+    transition-duration: 0.05s;
+}
+.styleBucket:hover{
+    width: 160px;
+    height: 160px;
+}
+.bucketOfSausage{
+    /* background-image: url("image/letsgo5.jpg"); */
+    background-image: url("/arara.054b8859.png");
+}
+.bucketOfSausage2{
+    background-image: url("/letsgo3.fa1e17a9.jpg");
+}
+.bucketOfSausage3{
+    background-image: url("/letsgo2.6f915621.jpg");
+}
+.bucketOfSausage4{
+    background-image: url("/Capture.06fb6a83.PNG");
+}
+.bucketOfSausage5{
+    background-image: url("/dog-58705_960_720.3e901bae.jpg");
+}
+.bucketOfSausage6{
+    background-image: url("/robot.b68faee6.png");
+}
+.showPrice{
+    text-align: center;
+    color: rgb(51, 255, 0);
+    background-color: rgba(45, 69, 122, 0.904);
+    padding: 0 10px 0 10px;
+    border-radius: 20px 20px 0px 0px;
+    font-size:  20px ;
+
+}
+.sizeBuyItem{
+    margin: 8px; 
+}
+.flexibleBox{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 0 0 0 50px;
+
+}
+.storage{
+    backdrop-filter: blur(2px);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 50px;
+    transition-duration:1s ;
+    background: rgb(31,76,198);
+    background: linear-gradient(90deg, rgb(20, 41, 98) 0%, rgb(78, 18, 78) 92%);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    /* border: inset rgba(188,90,187,1) 10px; */
+}
+.box3{
+    backdrop-filter: blur(2px);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    transition-duration:1s ;
+    background: rgb(31,76,198);
+    background: linear-gradient(80deg, rgba(78, 18, 78) 0%, rgb(31,76,198,1) 92%);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    /* border: inset rgba(188,90,187,1) 10px; */
+}
+.musique{
+    box-shadow: rgba(240, 46, 170, 0.4) -15px 15px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.4) 15px 15px, rgba(240, 46, 170, 0.3) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px ;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgb(15, 2, 15) 0%, rgb(66, 19, 66) 50%);
+    transition-duration:10s ;
+  
+    
+}
+.defil{
+    overflow: auto;
+    scrollbar-face-color: rebeccapurple;
+    height: 150px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.morteau{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.runner{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    background-image: url(/sauc.4c1362ed.PNG);
+    background-position: center;
+}
+
+
+
+/*# sourceMappingURL=/style.61810f23.css.map */
