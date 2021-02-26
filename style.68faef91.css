@@ -1,2 +1,217 @@
-@import url("http://fonts.cdnfonts.com/css/cyberx-font");html{font-family:CyberX-font,sans-serif;font-size:19px;min-width:868px}body{padding:0;margin:0;background-image:url(/CanineSameEwe-small.63b9f97a.gif);background-size:cover}.titre{text-align:center}.navPos{display:flex;justify-content:space-between;padding:5px;min-width:1100px;background:linear-gradient(180deg,#1f48b9,#4e124e 90%);font-weight:550;font-size:x-large;color:#fff;box-shadow:0 5px rgba(240,46,170,.4),0 10px rgba(240,46,170,.3),0 15px rgba(240,46,170,.2),0 20px rgba(240,46,170,.1),0 25px rgba(240,46,170,.05)}.saucisse{width:400px;height:50px;background-image:url(/sauc.43c91e46.PNG);background-position:50%;border-radius:30px;border:2px inset #e9ae99;transform:rotate(20deg);display:flex;justify-content:center;margin-top:50px;transition-duration:.5s}.saucisse:active{background-color:#3e8e41;box-shadow:0 5px #666;transform:rotate(60deg);transform:translateY(50px);transform:translateX(50px)}.socle{background-image:url(/Bucket-Sausages.c8ace1ae.png);background-size:80%;background-position:50%;background-repeat:no-repeat;width:60%;height:300px;border-radius:50%;color:#fff;justify-content:center;margin:0 auto}button{border:none;outline:none}.store{margin:0 50px;box-shadow:0 54px 55px rgba(0,0,0,.25),0 -12px 30px rgba(0,0,0,.12),0 4px 6px rgba(0,0,0,.12),0 12px 13px rgba(0,0,0,.17),0 -3px 5px rgba(0,0,0,.09);width:100%;border-radius:60px;background:radial-gradient(circle,rgba(33,85,255,.3) 36%,rgba(198,31,185,.8) 100%);backdrop-filter:blur(2px)}.display{display:flex;padding:30px}.white{color:#fff}.styleBucket{width:130px;height:130px;background-size:cover;border-radius:20px;background-position:bottom;box-shadow:0 19px 38px #cf0808,0 15px 12px #e42bc5;transition-duration:.05s}.styleBucket:hover{width:160px;height:160px}.bucketOfSausage{background-image:url(/arara.6b48aa88.png)}.bucketOfSausage2{background-image:url(/letsgo3.ff9a1f03.jpg)}.bucketOfSausage3{background-image:url(/letsgo2.0bbad64e.jpg)}.bucketOfSausage4{background-image:url(/Capture.81c690a4.PNG)}.bucketOfSausage5{background-image:url(/dog-58705_960_720.74f5e163.jpg)}.bucketOfSausage6{background-image:url(/robot.8e623d54.png)}.showPrice{text-align:center;color:#3f0;background-color:rgba(45,69,122,.904);padding:0 10px;border-radius:20px 20px 0 0;font-size:20px}.sizeBuyItem{margin:8px}.flexibleBox{display:flex;flex-wrap:wrap;padding:0 0 0 50px}.storage{background-color:#fff;background:#1f4cc6;background:linear-gradient(90deg,#142962,#4e124e 92%);box-shadow:5px 5px rgba(240,46,170,.4),10px 10px rgba(240,46,170,.3),15px 15px rgba(240,46,170,.2),20px 20px rgba(240,46,170,.1),25px 25px rgba(240,46,170,.05)}.box3,.storage{backdrop-filter:blur(2px);width:70%;display:flex;flex-wrap:wrap;border-radius:50px;transition-duration:1s}.box3{justify-content:center;background-color:#fff;background:#1f4cc6;background:linear-gradient(80deg,#4e124e,#1f4cc6 92%);box-shadow:-5px 5px rgba(240,46,170,.4),-10px 10px rgba(240,46,170,.3),-15px 15px rgba(240,46,170,.2),-20px 20px rgba(240,46,170,.1),-25px 25px rgba(240,46,170,.05)}.musique{box-shadow:-15px 15px rgba(240,46,170,.4),-10px 10px rgba(240,46,170,.3),15px 15px rgba(240,46,170,.4),20px 20px rgba(240,46,170,.3),25px 25px rgba(240,46,170,.05);display:flex;flex-direction:column;margin:0 auto;border-radius:50px;background:linear-gradient(180deg,#0f020f,#421342 50%);transition-duration:10s}.defil{overflow:auto;scrollbar-face-color:#639;height:150px}::-webkit-scrollbar{width:10px}.morteau{width:100%;height:100vh;background-color:#00f;display:flex;flex-direction:column;justify-content:center}.morteau,.runner{position:absolute}.runner{left:0;top:0;width:100px;height:20px;border-radius:30px;background-image:url(/sauc.43c91e46.PNG);background-position:50%}
+@import url("http://fonts.cdnfonts.com/css/cyberx-font");
+
+html {
+    font-family: CyberX-font, sans-serif;
+    font-size: 19px;
+    min-width: 868px
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(CanineSameEwe-small.63b9f97a.gif);
+    background-size: cover
+}
+
+.titre {
+    text-align: center
+}
+
+.navPos {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    min-width: 1100px;
+    background: linear-gradient(180deg, #1f48b9, #4e124e 90%);
+    font-weight: 550;
+    font-size: x-large;
+    color: #fff;
+    box-shadow: 0 5px rgba(240, 46, 170, .4), 0 10px rgba(240, 46, 170, .3), 0 15px rgba(240, 46, 170, .2), 0 20px rgba(240, 46, 170, .1), 0 25px rgba(240, 46, 170, .05)
+}
+
+.saucisse {
+    width: 400px;
+    height: 50px;
+    background-image: url(sauc.43c91e46.PNG);
+    background-position: 50%;
+    border-radius: 30px;
+    border: 2px inset #e9ae99;
+    transform: rotate(20deg);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition-duration: .5s
+}
+
+.saucisse:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: rotate(60deg);
+    transform: translateY(50px);
+    transform: translateX(50px)
+}
+
+.socle {
+    background-image: url(Bucket-Sausages.c8ace1ae.png);
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 300px;
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    margin: 0 auto
+}
+
+button {
+    border: none;
+    outline: none
+}
+
+.store {
+    margin: 0 50px;
+    box-shadow: 0 54px 55px rgba(0, 0, 0, .25), 0 -12px 30px rgba(0, 0, 0, .12), 0 4px 6px rgba(0, 0, 0, .12), 0 12px 13px rgba(0, 0, 0, .17), 0 -3px 5px rgba(0, 0, 0, .09);
+    width: 100%;
+    border-radius: 60px;
+    background: radial-gradient(circle, rgba(33, 85, 255, .3) 36%, rgba(198, 31, 185, .8) 100%);
+    backdrop-filter: blur(2px)
+}
+
+.display {
+    display: flex;
+    padding: 30px
+}
+
+.white {
+    color: #fff
+}
+
+.styleBucket {
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: bottom;
+    box-shadow: 0 19px 38px #cf0808, 0 15px 12px #e42bc5;
+    transition-duration: .05s
+}
+
+.styleBucket:hover {
+    width: 160px;
+    height: 160px
+}
+
+.bucketOfSausage {
+    background-image: url(arara.6b48aa88.png)
+}
+
+.bucketOfSausage2 {
+    background-image: url(letsgo3.ff9a1f03.jpg)
+}
+
+.bucketOfSausage3 {
+    background-image: url(letsgo2.0bbad64e.jpg)
+}
+
+.bucketOfSausage4 {
+    background-image: url(Capture.81c690a4.PNG)
+}
+
+.bucketOfSausage5 {
+    background-image: url(dog-58705_960_720.74f5e163.jpg)
+}
+
+.bucketOfSausage6 {
+    background-image: url(robot.8e623d54.png)
+}
+
+.showPrice {
+    text-align: center;
+    color: #3f0;
+    background-color: rgba(45, 69, 122, .904);
+    padding: 0 10px;
+    border-radius: 20px 20px 0 0;
+    font-size: 20px
+}
+
+.sizeBuyItem {
+    margin: 8px
+}
+
+.flexibleBox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 50px
+}
+
+.storage {
+    background-color: #fff;
+    background: #1f4cc6;
+    background: linear-gradient(90deg, #142962, #4e124e 92%);
+    box-shadow: 5px 5px rgba(240, 46, 170, .4), 10px 10px rgba(240, 46, 170, .3), 15px 15px rgba(240, 46, 170, .2), 20px 20px rgba(240, 46, 170, .1), 25px 25px rgba(240, 46, 170, .05)
+}
+
+.box3,
+.storage {
+    backdrop-filter: blur(2px);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    transition-duration: 1s
+}
+
+.box3 {
+    justify-content: center;
+    background-color: #fff;
+    background: #1f4cc6;
+    background: linear-gradient(80deg, #4e124e, #1f4cc6 92%);
+    box-shadow: -5px 5px rgba(240, 46, 170, .4), -10px 10px rgba(240, 46, 170, .3), -15px 15px rgba(240, 46, 170, .2), -20px 20px rgba(240, 46, 170, .1), -25px 25px rgba(240, 46, 170, .05)
+}
+
+.musique {
+    box-shadow: -15px 15px rgba(240, 46, 170, .4), -10px 10px rgba(240, 46, 170, .3), 15px 15px rgba(240, 46, 170, .4), 20px 20px rgba(240, 46, 170, .3), 25px 25px rgba(240, 46, 170, .05);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #0f020f, #421342 50%);
+    transition-duration: 10s
+}
+
+.defil {
+    overflow: auto;
+    scrollbar-face-color: #639;
+    height: 150px
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+.morteau {
+    width: 100%;
+    height: 100vh;
+    background-color: #00f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.morteau,
+.runner {
+    position: absolute
+}
+
+.runner {
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    background-image: url(sauc.43c91e46.PNG);
+    background-position: 50%
+}
+
 /*# sourceMappingURL=/style.68faef91.css.map */
